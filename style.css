@@ -1,0 +1,344 @@
+/*
+google fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(9, 15, 52);background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a {
+    font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/*basic css*/
+.container {
+    padding: 0 35px;
+}
+a.theme-button {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+a.theme-button:hover {
+    background-color:chartreuse;
+    color: #fff;
+}
+
+a.theme-button-small {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 12px;
+    transition: 0.7s;
+}
+.theme-button-small:hover {
+    background-color: chartreuse;
+    color: #fff;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+/*header area css*/
+.header-area {
+    padding: 20px 0;
+    background-color: rgb(86, 175, 145);
+}
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.logo a {
+    text-decoration: none;
+}
+.logo h1 {
+    color: rgb(10, 10, 35);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+.icon {
+    background-color: rgb(11, 93, 93);
+    padding: 15px 20px ;
+}
+.main-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    transition: 0.7s;
+}
+.main-menu a:hover {
+    color: blueviolet;
+
+}
+
+/*hero area css*/
+.hero-area {
+    padding: 80px ;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text {
+    padding-right:200px ;
+}
+.hero-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    color: rgb(185, 57, 83);
+}
+
+
+.hero-text p {
+    font-size: 25px;
+    color: aliceblue;
+}
+.hero-img {
+    padding-left: 30px;
+}
+
+/*about area css*/
+.about-area {
+    padding: 100px 0;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+}
+.about-img {
+    flex: 1;
+}
+.about-img img {
+    width: 100%;
+    padding-left: 10px;
+   
+}
+.about-text {
+    flex: 1;
+}
+.about-text h2 {
+    font-size: 35px;
+    color: brown;
+}
+.about-text p {
+    color: #fff;
+    padding: 5px 0;
+}
+
+/*services area css*/
+.service-area {
+    padding: 100px 0;
+}
+.service-content {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 30px;
+}
+.single-service {
+    background-color: rgb(91, 190, 190);
+    padding: 30px;
+}
+.single-service h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.single-service p {
+    color: #fff;
+}
+
+/*contact area css*/
+.contact-area {
+    padding: 100px 0;
+    background-color: rgb(31, 62, 62);
+}
+.section-heading h3 {
+    color: rgb(42, 12, 12);
+    text-transform: uppercase;
+}
+.section-heading h2 {
+    text-transform: capitalize;
+}
+.contact-content form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    grid-template-areas:
+    "f l"
+    "e p"
+    "m m"
+    "s s";
+}
+#first-name 
+{
+    grid-area: f;
+}
+#last-name {
+    grid-area: l;
+}
+#email-address {
+    grid-area: e;
+}
+#phone-number {
+    grid-area: p;
+}
+#message {
+    grid-area: m;
+}
+#send-message {
+    grid-area: s;
+    background-color: rgb(15, 190, 190);
+    cursor: pointer;
+    border: 1px solid cornflowerblue;
+}
+
+.contact-content input {
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(15, 190, 190);
+    color: #fff;
+    border: 1px solid cornflowerblue;
+}
+.contact-content textarea {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px; 
+    background-color: rgb(15, 190, 190);
+    color: #fff;
+    border: 1px solid cornflowerblue;
+    }
+
+    /*footer area css*/
+    .footer-area {
+        padding: 30px 0;
+        text-align: center;
+        background-color: darkblue;
+        border: 1px solid rgb(39, 15, 61);
+    }
+
+    @media only screen and (max-width:992px) {
+        /*header area css r*/
+        .container {
+            padding: 0 15px;
+        }
+        .header-area {
+            padding: 10px 0;
+        }
+        .logo {
+            border: 1px solid  rgb(34, 9, 58)  ;
+        }
+        .logo h1 {
+            color: greenyellow;
+        }
+        .menu-icon {
+            display: block;
+        }
+        .menu-icon img{
+            width: 15%;
+        }
+        .header-content {
+            grid-template-areas:
+            "l i"
+            "m m";
+        } 
+        .logo {
+            grid-area: l;
+        }
+        .menu-icon {
+            grid-area: i;
+        }
+
+        .main-menu.show-menu {
+            display: block;
+        }
+        .main-menu {
+            grid-area: m;
+            text-align: center;
+            background-color:  rgb(34, 9, 58) ;
+            margin-top: 5px;
+            display: none;
+        }
+        .main-menu a {
+            display: block;
+            margin-left: 0;
+            
+        }
+        /*hero area css r r*/
+        .hero-content {
+            flex-direction: column;
+            font-size: 10px;
+        }
+    
+       .hero-text {
+        text-align: center;
+        padding-left: 170px;}
+    }
+
+    /*about area css r*/
+    .about-content {
+        flex-direction: column;
+    }
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+       
+
+    @media only screen and (max-width:576px) {
+        .contact-content form {
+            display: grid;
+            grid-template-areas:
+            "f f"
+            "l l"
+            "e e"
+            "p p"
+            "m m"
+            "s s";}
+    }
+    
+    

@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagor-professional YouTube content cteator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-content">
+              <div class="logo">
+                <a href="#">
+                <h1>Sagor.PB</h1>
+                </a>
+             </div>
+             <div class="menu-icon"onclick="menufunction()">
+                <div class="icon">
+                    <img src="img/icon.png" alt="">
+                </div>
+             </div>
+             <nav class="main-menu" id="main-menu">
+                <a href="index.html">Home</a>
+                <a href="#about-area">About</a>
+                <a href="#service-area">Servicess</a>
+                <a href="#contact-area">contact</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main-area">
+        <section class="hero-area">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-img">
+                        <img src="img/sagor.png" alt="">
+
+                    </div>
+                    <div class="hero-text">
+                       <h2> i'm sagor.pb</h2>
+                       <p>professional youtube content creator</p>
+                       <a href="#" class="theme-button"> Details about me</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="about-area" id="about-area">
+            <div class="container">
+                <div class="about-content">
+                    <div class=" about-img">
+                        <img src="img/youtube.png" alt="">
+                    </div>
+                    <div class="about-text">
+                        <h2>Click here to check my works</h2>
+                        <p>
+                            All my works can be found on this website. if you want you can  check it from here,fill the from after  verifying everything.
+                        </p>
+                        <a href="#" class="theme-button"> click here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="service-area"id="service-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>My Servicess</h2>
+                </div>
+                <div class="service-content">
+                    <div class="single-service">
+                        <h3>Drama & short film</h3>
+                        <p>
+                         We produce dramas and ahort films and make them intertainin....
+                        </p>
+                        <a href="#" class="theme-button-small">larn more</a>
+                    </div>
+                    <div class="single-service">
+                        <h3>Thumbnail creation</h3>
+                        <p>
+                            We can present your video thumbnails very neattly!
+                        </p>
+                        <a href="#" class="theme-button-small">larn more</a>
+                    </div>
+                    <div class="single-service">
+                        <h3>Video editing</h3>
+                        <p>
+                            There is a good facility for editing by skilled editors.
+                        </p>
+                        <a href="#" class="theme-button-small">larn more</a>
+                    </div>    
+                    <div class="single-service">
+                        <h3>TVC</h3>
+                        <p>
+                         Advetisements for various products are created hear.
+                        </p>
+                        <a href="#" class="theme-button-small">larn more</a>
+                    </div>   
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-area">
+            <div class="container">
+                <div class="section-heading">
+                    <h3>contact</h3>
+                    <h2>feel free to contact me</h2>
+                </div>
+                <div class="contact-content">
+                    <form action="">
+                        <input type="text" placeholder="First Name" id="first-name">
+                        <input type="text" placeholder="Surname" id="last-name">
+                        <input type="email" placeholder="email Address" id="email-address">
+                        <input type="tel" placeholder="Phone Number" id="phone-number">
+                        <textarea id="message" rows="5" placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message " id="send-message">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer-area">
+        <div class="container">
+            <p> Sagor PB All Information 2022</p>
+        </div>
+    </footer>
+    <script>
+     function menufunction(){
+        var menu=document.getElementById("main-menu");
+        menu.classList.toggle("show-menu")
+     } 
+    </script>
+</body>
+</html>
