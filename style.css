@@ -133,7 +133,7 @@ a.theme-button-small {
 
 .hero-text p {
     font-size: 25px;
-    color: aliceblue;
+    color: rgb(66, 146, 216);
 }
 .hero-img {
     padding-left: 30px;
@@ -163,7 +163,7 @@ a.theme-button-small {
     color: brown;
 }
 .about-text p {
-    color: #fff;
+    color: rgb(92, 154, 246);
     padding: 5px 0;
 }
 
